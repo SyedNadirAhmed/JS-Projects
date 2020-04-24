@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-size: 20px;
+    color: #fff; 
+    background-color: rgb(10, 6, 44);
+}
+
+.clock{
+    margin: 5% auto;
+    max-width: 300px;
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    position: relative;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    background: #23A7F1;
+}
+.hand{
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid #f0f0f0;
+    background-color: #252526;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all cubic-bezier(0, 1.68, 0, 1.92) .05s;
+}
+.hour{
+    height: 7px;
+}
+.min{
+    height: 5px;
+}
+.sec{
+    height: 2px;
+    border: 1px solid #FF5833;
+}    
