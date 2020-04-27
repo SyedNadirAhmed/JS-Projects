@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #24ADF3;
+}
+.textCont{
+    max-width: 850px;
+    width: 100%;
+    min-height: 450px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    background-color: #15C39A;
+    box-sizing: border-box;
+    border: 1px solid #f2f2f2;
+}
+.textCont h1{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(17, 17, 17, 0.80);
+    text-shadow: 10px 10px 0 #10101067;
+}
